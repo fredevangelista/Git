@@ -1,0 +1,9 @@
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\Chat.Server.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\Chat.Server.pdb
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\Newtonsoft.Json.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\System.CoreEx.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\System.Reactive.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\Newtonsoft.Json.xml
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\obj\Debug\Chat.Server.csprojResolveAssemblyReference.cache
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\obj\Debug\Chat.Server.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\obj\Debug\Chat.Server.pdb

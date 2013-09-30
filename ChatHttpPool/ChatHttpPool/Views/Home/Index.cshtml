@@ -1,0 +1,35 @@
+﻿@model ChatHttpPool.Models.HomeModel
+@{
+    ViewBag.Title = "Chat Http Pooling";
+}
+
+<p>
+    Entre com seu nome:<br/><input type="text" name="txtNome" id="txtNome" />
+    <input type="button" name="btNome" id="btNome" value="LOGAR"/>
+</p>
+
+<div style="visibility: hidden" id="divChat">
+    <p>
+        Mensagem:<br />
+        <input type="text" name="txtMensagem" id="txtMensagem"  /> 
+        <input id="btnEnviar" type="submit" value="enviar" /><br />
+    </p>
+    <ul id="chatList">
+        @foreach (var msg in Model.Mensagens)
+        { 
+            <li>
+                <p style="margin-bottom: -2px; color: black;">
+                    <strong>@msg.Usuario.Nome</strong>
+                </p>
+                <p>@msg.Texto</p>
+            </li>
+        }
+    </ul>
+
+        <script id="msgTmpl" type="text/x-jquery-tmpl">
+            <li><p style="margin-bottom:-2px; color: black;" ><strong>${Usuario.Nome}</strong></p><p>${Texto}</p></li>
+        </script>
+</div>
+
+<script src="@Url.Content("~/Scripts/jquery.tmpl.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/chat.js")" type="text/javascript"></script>

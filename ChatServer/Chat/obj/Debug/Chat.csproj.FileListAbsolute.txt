@@ -1,0 +1,7 @@
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\obj\Debug\Chat.csprojResolveAssemblyReference.cache
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\System.CoreEx.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\System.Reactive.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\Chat.Server.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\bin\Debug\Chat.Server.pdb
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\obj\Debug\Chat.Server.dll
+C:\Users\WinHouse\Documents\Visual Studio 2012\Projects\ChatServer\Chat\obj\Debug\Chat.Server.pdb

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title</title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width" />
+        @Scripts.Styles.Render("~/Content/css")
+        <script src="@Url.Content("~/Scripts/jquery-1.4.4.min.js")" type="text/javascript"></script>
+        @Scripts.Scripts.Render("~/bundles/modernizr")
+       
+    </head>
+    <body>
+
+        @System.Web.Optimization.Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+
+        <header>
+
+            <div class="content-wrapper">
+                <div class="float-left">
+                    <section>
+                        <p>CHAT</p>
+                    </section>
+                </div>
+            </div>
+        </header>
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+    </body>
+</html>
